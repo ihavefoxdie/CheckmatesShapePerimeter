@@ -7,9 +7,9 @@ namespace Checkmates
     {
         static void Main()
         {
-            /*Shape per = new(1, 8, 8);
-            Console.WriteLine(per.Perimeter);*/
-            int[] parameters;
+            Shape per = new(1, 8, 8);
+            Console.WriteLine(per.Perimeter);
+            /*int[] parameters;
             int i = 0;
 
             //example of the INPUT file
@@ -41,9 +41,7 @@ namespace Checkmates
 
             StreamWriter writer = new StreamWriter("OUTPUT.txt");
             writer.WriteLine(per.Perimeter.ToString());
-            writer.Close();
-
-            Console.WriteLine(per.Perimeter);
+            writer.Close();*/
         }
     }
 }
